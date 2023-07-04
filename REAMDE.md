@@ -3,6 +3,7 @@ Minha primeira aplicação usando kubernetes
 
 ## Passo 1: Criar um cluster Kubernetes
 Para começar, crie um cluster Kubernetes usando o comando abaixo:
+
 k3d cluster create lafuente --servers 3 --agents 3
 
 Isso criará um cluster com 3 servidores e 3 agentes usando o K3d. Certifique-se de ter o K3d instalado em sua máquina antes de executar o comando acima.
